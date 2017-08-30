@@ -1,0 +1,25 @@
+ <html>
+    <head>
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <ul>
+            <li>dog</li>
+            <li>cat<li>
+            <li>elephant</li>
+            <li>bear<li>
+        </ul>
+        <script>
+            $('li').mouseenter(function(){
+                $(this).css('color','red');
+                $(this).css('font-size',
+                            120%);
+            });
+            $('li').mouseleave(function(){
+                $(this).css('color','black');
+                $(this).css('font-size',
+                            100%);
+            });
+        </script>
+    </body>
+</html>
