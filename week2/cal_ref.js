@@ -1,3 +1,4 @@
+// This is the code I refered when I complete the HW# http://thecodeplayer.com/walkthrough/javascript-css3-calculator
 // Get all the keys from document
 var keys = document.querySelectorAll('#calculator span');
 var operators = ['+', '-', 'x', '÷'];
